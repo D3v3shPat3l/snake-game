@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devesh | Snake Game</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="snake.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+            padding: 20px;
+            position: relative;
+        }
+        .home-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 24px;
+            font-weight: bold;
+            z-index: 1;
+        }
+        .home-link:hover {
+            opacity: 0.7; /* Reduced opacity on hover */
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        #board {
+            width: 400px;
+            height: 400px;
+            background-color: black;
+        }
+        #restartBtn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #restartBtn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Snake</h1>
+            <canvas id="board"></canvas>
+            <button id="restartBtn">Restart</button>
+        </div>
+    </div>
+
+    <script src="snake.js"></script>
+</body>
+</html>
+
+
