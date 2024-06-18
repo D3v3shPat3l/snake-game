@@ -38,3 +38,6 @@ Please make sure your code adheres to the coding standards and includes relevant
 ## Enjoy playing the Snake Game!
 If you have any questions or feedback, feel free to open an issue or contact me. Happy coding!
 
+![image](https://github.com/D3v3shPat3l/snake-game/assets/171942470/72191e2e-04f5-402b-b36e-2bd7e5e54de8)
+
+
